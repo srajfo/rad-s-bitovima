@@ -11,3 +11,35 @@
         cout<<r;
         return 0;
     }
+    #include <iostream>
+    #include <string>
+    #include <stdio.h>
+    #include <time.h>
+    using namespace std;
+    int main()
+    {
+        char a,b,c;
+        a=20;
+        b=a>>2;
+        c=b<<1;
+        int x=a|~b&~c;
+        cout<<x;
+        return 0;
+    }
+    #include <iostream>
+    #include <string>
+    #include <stdio.h>
+    #include <time.h>
+    using namespace std;
+    int main()
+    {
+        char a,b,c;
+        a=20;
+        b=~a;
+        c=b+4;
+        int x=~a&~(b|~c);
+        cout<<x;
+        return 0;
+    }
+
+
