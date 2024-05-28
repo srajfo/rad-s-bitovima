@@ -1,0 +1,13 @@
+    #include <iostream>
+    #include <string>
+    #include <stdio.h>
+    #include <time.h>
+    using namespace std;
+    int main()
+    {
+        int a,b,c;
+        cin>>a>>b>>c;
+        int r=~(a&b|c);
+        cout<<r;
+        return 0;
+    }
